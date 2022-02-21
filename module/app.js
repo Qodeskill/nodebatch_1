@@ -14,7 +14,6 @@ function i() {
 function doSum(a, b) {
     return a + b;
 }
-
 const person = function (firstName, lastName) {
     this.firstName = firstName;
     this.lastName = lastName;

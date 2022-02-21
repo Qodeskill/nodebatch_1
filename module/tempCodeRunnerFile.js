@@ -1,1 +1,2 @@
-doSum(10, 20)
+console.log(p.firstName);
+console.log(p.lastName);

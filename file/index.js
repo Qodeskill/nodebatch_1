@@ -8,6 +8,8 @@ var fs = require("fs");
 
 fs.readFile("file1.txt", "utf8", receivedFile);
 function receivedFile(error, data) {
-    console.log(error);
-    console.log(data);
+    if (error)
+        console.log(error);
+    else
+        console.log(data);
 }
