@@ -18,14 +18,42 @@
 
 // console.log("Ice Cream")
 
-function firstFunc() {
-    console.log("call first...");
+// function firstFunc() {
+//     console.log("call first...");
+// // }
+// function secondFunc(firFun) {
+//     console.log(firFun)
+//     firFun()
+//     console.log("call second...");
+// }
+// secondFunc(firstFunc)
+// secondFunc(() => { console.log("call first...") })
+
+// console.log(secondFunc())
+// let i = 0;
+// let Fruits = ["strawberry", "grapes", "banana", "apple"];
+
+// function iterateOverArray() {
+//     console.log(Fruits[i]);
+//     i++;
+// }
+// iterateOverArray()
+
+let i = 0;
+let Fruits = ["strawberry", "grapes", "banana", "apple"];
+let numberOfFruits = Fruits.length + 1;
+// console.log(" Lenght : ", numberOfFruits);
+function iterateOverArray() {
+
+    // console.log(" i : ", i++)
+    console.log(Fruits[i]);
+    i++;
 }
-function secondFunc(firFun) {
-    firFun()
-    console.log("call second...");
-}
-secondFunc(firstFunc)
-
-
-
+// iterateOverArray()
+// console.log("setInterval")
+// var printFruits = setTimeout(iterateOverArray, 2000);
+var printFruits = setInterval(iterateOverArray, 1000);
+// console.log("setTimeout")
+setTimeout(() => {
+    clearInterval(printFruits);
+}, 6 * 1000);

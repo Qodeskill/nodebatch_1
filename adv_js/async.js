@@ -1,5 +1,5 @@
-let hello = async () => "Hello";
-console.log(hello())
+// let hello = async () => "Hello";
+// console.log(hello())
 // let hello = async function () { return "Hello" };
 // async function hello() { return "Hello" };
 // console.log(hello().then((val) => console.log(val)));

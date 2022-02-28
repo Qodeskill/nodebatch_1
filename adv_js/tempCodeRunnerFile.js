@@ -1,3 +1,1 @@
-function sayHi() {
-//     alert('Hello Mr. Universe!');
-// }
+ tell them to return a promise rather than directly returning the value.
