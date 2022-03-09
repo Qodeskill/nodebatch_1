@@ -1,1 +1,1 @@
- tell them to return a promise rather than directly returning the value.
+console
