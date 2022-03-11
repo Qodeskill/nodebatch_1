@@ -20,5 +20,5 @@ let myFnc = () => {
 }
 myFnc()
     .then(() => {
-        console.log("Hello");
+        console.log(x);
     });
